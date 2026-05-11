@@ -1,0 +1,151 @@
+Activity Diagram
+
+An Activity Diagram is a UML (Unified Modeling Language) diagram used to represent the workflow or flow of activities in a system.
+It shows step-by-step execution of processes and decision-making.
+
+It is similar to a flowchart.
+
+Definition
+
+An Activity Diagram represents:
+
+Sequence of activities
+Flow of control
+Decision points
+Parallel processes
+Start and end of a process
+
+It is mainly used for:
+
+Business process modeling
+Software workflow design
+System behavior analysis
+Main Components of Activity Diagram
+1. Initial State (Start Node)
+
+Represents the starting point of the process.
+
+Symbol:
+
+Filled black circle
+
+7
+2. Activity / Action
+
+Represents an operation or task.
+
+Symbol:
+
+Rounded rectangle
+
+Examples:
+Login
+Enter Password
+Process Payment
+6
+3. Control Flow
+
+Shows the sequence of activities.
+
+Symbol:
+
+Arrow line
+
+Example:
+Login → Verify User
+
+4. Decision Node
+
+Represents a condition or branching.
+
+Symbol:
+
+Diamond shape
+
+Example:
+Password correct?
+Yes → Open Dashboard
+No → Show Error
+6
+5. Merge Node
+
+Combines multiple flows into one flow.
+
+Symbol:
+
+Diamond shape
+
+6. Fork Node
+
+Splits one activity into parallel activities.
+
+Symbol:
+
+Thick horizontal/vertical bar
+
+Example:
+
+Send Email and Save Record simultaneously
+7. Join Node
+
+Combines parallel activities into one flow.
+
+Symbol:
+
+Thick bar
+
+8. Final State (End Node)
+
+Represents the end of the process.
+
+Symbol:
+
+Circle with outer ring
+
+7
+Advantages of Activity Diagram
+Easy to understand
+Shows complete workflow
+Helps identify system logic
+Useful for process analysis
+Supports parallel processing
+Limitations
+Large diagrams become complex
+Does not show object relationships clearly
+Time-consuming for very detailed systems
+Example: Online Shopping Activity Diagram
+
+Activities:
+
+User Login
+Browse Products
+Add to Cart
+Make Payment
+Order Confirmation
+7
+ATM Withdrawal Activity Diagram
+
+Steps:
+
+Insert Card
+Enter PIN
+Verify PIN
+Select Withdrawal
+Enter Amount
+Dispense Cash
+Print Receipt
+End
+7
+Difference Between Use Case Diagram and Activity Diagram
+Use Case Diagram	Activity Diagram
+Shows system functionality	Shows workflow/process
+Focuses on user interaction	Focuses on activity flow
+Static view	Dynamic view
+Uses actors and use cases	Uses actions and control flow
+Steps to Draw Activity Diagram
+Identify process
+Determine activities
+Define decision points
+Connect activities with arrows
+Add start and end nodes
+Add fork/join if parallel tasks exist
