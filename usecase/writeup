@@ -1,0 +1,92 @@
+Title
+Study of Use Case Diagram using UML
+Aim
+
+To understand and design a Use Case Diagram for a system using UML concepts.
+
+Objective
+To learn UML modeling
+To identify actors and use cases
+To represent interaction between user and system
+Theory
+
+A Use Case Diagram is a UML behavioral diagram used to represent the interaction between users (actors) and the system.
+
+It describes:
+
+Functional requirements of system
+User interaction
+System services
+
+Use Case Diagram mainly focuses on:
+
+“What the system does”
+Components of Use Case Diagram
+1. Actor
+
+Represents user or external system.
+
+Examples:
+
+Student
+Admin
+Customer
+2. Use Case
+
+Represents system functionality.
+
+Examples:
+
+Login
+Register
+Upload File
+3. System Boundary
+
+Defines scope of system.
+
+4. Association
+
+Connection between actor and use case.
+
+5. Include Relationship
+
+Used when one use case always includes another use case.
+
+6. Extend Relationship
+
+Used for optional behavior.
+
+Advantages
+Easy to understand
+Represents system functionality clearly
+Helps in requirement analysis
+Improves communication between developer and client
+Applications
+Banking System
+Online Quiz System
+Library Management
+Hospital Management
+Example
+Online Quiz System
+Actors
+Student
+Admin
+Use Cases
+Login
+Attempt Quiz
+View Result
+Add Questions
+5
+Procedure
+Identify actors
+Identify system functionalities
+Draw system boundary
+Connect actors with use cases
+Add relationships if required
+Result
+
+Successfully studied and designed the Use Case Diagram using UML concepts.
+
+Conclusion
+
+Use Case Diagram helps in understanding system functionality and user interaction effectively. It is useful during software requirement analysis and system design.
