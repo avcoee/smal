@@ -1,0 +1,186 @@
+Class Diagram
+
+A Class Diagram is a UML (Unified Modeling Language) diagram used to represent the structure of a system by showing:
+
+Classes
+Attributes
+Methods
+Relationships between classes
+
+It is the most important diagram in Object-Oriented Programming (OOP).
+
+Definition
+
+A Class Diagram describes:
+
+Static structure of a system
+Objects and their relationships
+Data members and functions of classes
+
+It helps developers design software architecture before coding.
+
+Main Components of Class Diagram
+1. Class
+
+A class is a blueprint for creating objects.
+
+Symbol:
+
+Rectangle divided into 3 sections:
+
+Class Name
+Attributes
+Methods
+Example:
+-----------------
+     Student
+-----------------
+- rollNo : int
+- name : string
+-----------------
++ login()
++ register()
+-----------------
+6
+2. Attributes
+
+Attributes are variables/data members of a class.
+
+Syntax:
+visibility name : datatype
+Visibility Symbols:
++ → Public
+- → Private
+# → Protected
+Example:
+- name : string
+- age : int
+3. Methods / Operations
+
+Methods represent functions of a class.
+
+Example:
++ login()
++ display()
+4. Relationships in Class Diagram
+A) Association
+
+Represents connection between classes.
+
+Example:
+
+Student → Course
+
+Symbol:
+
+Simple line
+
+7
+B) Aggregation
+
+Represents “HAS-A” relationship where objects can exist independently.
+
+Example:
+
+Department has Teachers
+
+Symbol:
+
+Hollow diamond
+
+C) Composition
+
+Strong HAS-A relationship where dependent objects cannot exist independently.
+
+Example:
+
+House contains Rooms
+
+Symbol:
+
+Filled diamond
+
+7
+D) Inheritance / Generalization
+
+Represents parent-child relationship.
+
+Example:
+
+Animal → Dog
+
+Symbol:
+
+Arrow with hollow triangle
+
+6
+E) Dependency
+
+Represents temporary usage relationship.
+
+Example:
+
+Customer uses PaymentService
+
+Symbol:
+
+Dashed arrow
+
+Advantages of Class Diagram
+Represents complete system structure
+Helps in software design
+Easy to understand object relationships
+Supports code generation
+Useful for database and OOP design
+Limitations
+Complex for large systems
+Requires OOP knowledge
+Static view only (no process flow)
+Example: Library Management System
+
+Classes:
+
+Student
+Book
+Librarian
+IssueRecord
+
+Relationships:
+
+Student borrows Book
+Librarian manages Books
+6
+Example: Online Quiz System
+
+Classes:
+
+User
+Admin
+Quiz
+Question
+Result
+
+Methods:
+
+login()
+addQuestion()
+calculateScore()
+6
+Difference Between Class Diagram and Sequence Diagram
+Class Diagram	Sequence Diagram
+Static diagram	Dynamic diagram
+Shows structure	Shows interaction
+Focuses on classes	Focuses on messages
+Used for design	Used for behavior
+Steps to Draw Class Diagram
+Identify classes
+Add attributes and methods
+Define relationships
+Add multiplicity if needed
+Arrange classes properly
+Applications of Class Diagram
+Banking System
+Hospital Management
+E-commerce Applications
+Online Quiz Systems
+Student Management Systems
