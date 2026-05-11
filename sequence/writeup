@@ -1,0 +1,239 @@
+Sequence Diagram
+A Sequence Diagram is a UML (Unified Modeling Language) diagram used to show how objects interact with each other in a sequence over time.
+It represents:
+
+
+Messages exchanged between objects
+
+
+Order of execution
+
+
+Flow of communication
+
+
+It is mainly used in:
+
+
+Software design
+
+
+System analysis
+
+
+Object-oriented modeling
+
+
+
+Definition
+A Sequence Diagram shows:
+
+
+Interaction between objects
+
+
+Time sequence of messages
+
+
+Execution flow from top to bottom
+
+
+It focuses on “who communicates with whom and in what order.”
+
+Main Components of Sequence Diagram
+1. Actor
+Represents the user or external system interacting with the application.
+Symbol:
+Stick figure
+Example:
+
+
+Customer
+
+
+Student
+
+
+Admin
+
+
+6
+
+2. Object / Participant
+Represents objects participating in communication.
+Symbol:
+Rectangle with object name
+Example:
+
+
+Login Page
+
+
+Database
+
+
+Payment System
+
+
+
+3. Lifeline
+Represents the existence of an object during interaction.
+Symbol:
+Vertical dotted line below object
+6
+
+4. Activation Bar
+Represents the time an object is active or executing.
+Symbol:
+Thin vertical rectangle on lifeline
+
+5. Message
+Represents communication between objects.
+Types of Messages:
+
+
+Synchronous message
+
+
+Asynchronous message
+
+
+Return message
+
+
+Symbol:
+Arrow
+Example:
+User → Login Page : Enter Username
+7
+
+6. Return Message
+Represents response back to sender.
+Symbol:
+Dashed arrow
+Example:
+Database → System : Login Success
+
+7. Self Message
+Object sends message to itself.
+Example:
+Validate Password internally
+
+8. Destruction
+Represents object termination.
+Symbol:
+X mark at end of lifeline
+
+Advantages of Sequence Diagram
+
+
+Easy to understand system interaction
+
+
+Shows order of execution clearly
+
+
+Useful for debugging and design
+
+
+Helps developers understand object communication
+
+
+
+Limitations
+
+
+Large systems become complicated
+
+
+Time-consuming for detailed systems
+
+
+Does not show complete system structure
+
+
+
+Example: Login System Sequence Diagram
+Flow:
+
+
+User enters username/password
+
+
+Login page sends request to server
+
+
+Server checks database
+
+
+Database returns result
+
+
+System shows success/failure
+
+
+5
+
+Example: ATM Withdrawal Sequence Diagram
+Steps:
+
+
+Insert card
+
+
+Enter PIN
+
+
+ATM verifies with bank server
+
+
+Bank approves transaction
+
+
+ATM dispenses cash
+
+
+7
+
+Difference Between Activity Diagram and Sequence Diagram
+Activity DiagramSequence DiagramShows workflowShows object interactionFocuses on activitiesFocuses on messagesSimilar to flowchartSimilar to communication timelineDynamic process flowTime-based interaction
+
+Steps to Draw Sequence Diagram
+
+
+Identify actors and objects
+
+
+Arrange objects horizontally
+
+
+Draw lifelines
+
+
+Add messages in sequence
+
+
+Add activation bars
+
+
+Add return messages if needed
+
+
+
+Applications of Sequence Diagram
+
+
+Banking Systems
+
+
+E-commerce Websites
+
+
+Online Quiz Systems
+
+
+Hospital Management
+
+
+Railway Reservation Systems
+
